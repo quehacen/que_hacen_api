@@ -462,10 +462,9 @@ apiServer.get('/organos', function(req, res){
 
     var collection = db.collection('organos');
     var noShow = { '_id' : 0 };
-    var findParams = { };
 
     collection
-      .find( findParams, req.params.only || req.params.not || noShow)
+      .find( req.params.q, req.params.only || req.params.not || noShow)
       .sort( req.params.order )
       .limit ( req.params.limit )
       .toArray( function(err,docs2){
@@ -581,10 +580,9 @@ function onlyParse( req, res, next){
   var onlyFields = JSON.parse(req.params.only);
   var noShow = {'_id': 0};
   for (field in onlyFields){
-    noShow[String(onlyFields[field])]=1;
+    noShow[onlyFields[field]]=1;
   }
   req.params.only = noShow;
-  console.log('Only',noShow)
 
   next();
 }
