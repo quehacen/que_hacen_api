@@ -103,10 +103,15 @@ apiServer.get('/diputado/:id/votaciones', function(req, res){
         if (err) { res.send(err); return; }
         
         var votaciones = db.collection('votacion');
-        if( !req.params.order ) req.params.order = {};
-        req.params.order['fecha'] = -1;
+        if( !req.params.order ) {
+          req.params.order = {};
+          req.params.order['fecha'] = -1;
+        }
 
-        req.params.q['xml.resultado.votaciones.votacion'] = { $elemMatch: { 'diputado': docs.apellidos+', '+docs.nombre } } 
+        if(!req.params.q) {
+          req.params.q = {};
+        }
+        req.params.q['xml.resultado.votaciones.votacion'] = { $elemMatch: { 'diputado': docs.apellidos+', '+docs.nombre } };
         
         votaciones
           .find( req.params.q, req.params.only || req.params.not ||
