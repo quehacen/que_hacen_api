@@ -326,8 +326,10 @@ apiServer.get('/votaciones', function(req, res){
       '_id'         : 0
     };
 
-    if( !req.params.order ) req.params.order = {};
-    req.params.order['fecha'] = -1;
+    if( !req.params.order ){
+        req.params.order = {};
+        req.params.order['fecha'] = -1;
+    }
 
     collection
       .find( req.params.q, req.params.only || req.params.not || noShow)
@@ -346,8 +348,10 @@ apiServer.get('/votacion/:session', function(req, res){
       '_id'         : 0
     };
 
-    if( !req.params.order ) req.params.order = {};
-    req.params.order['fecha'] = -1;
+    if( !req.params.order ){
+        req.params.order = {};
+        req.params.order['fecha'] = -1;
+    }
     
     req.params.q['xml.resultado.informacion.sesion'] = req.params.session;
 
@@ -368,8 +372,10 @@ apiServer.get('/votacion/:session/:votacion', function(req, res){
       '_id'         : 0
     };
 
-    if( !req.params.order ) req.params.order = {};
-    req.params.order['fecha'] = -1;
+    if( !req.params.order ){
+        req.params.order = {};
+        req.params.order['fecha'] = -1;
+    }
     
     req.params.q['xml.resultado.informacion.sesion'] = req.params.session;
     req.params.q['xml.resultado.informacion.numerovotacion'] = req.params.votacion;
@@ -391,8 +397,10 @@ apiServer.get('/iniciativas', function(req, res){
       '_id'         : 0
     };
     
-    if( !req.params.order ) req.params.order = {};
-    req.params.order['presentadoJS'] = -1;
+    if( !req.params.order ){
+        req.params.order = {};
+        req.params.order['presentadoJS'] = -1;
+    }
 
     collection
       .find( req.params.q, req.params.only || req.params.not || noShow)
@@ -451,10 +459,15 @@ apiServer.get('/circunscripcion/:id/diputados', function(req, res){
       .findOne({ 'id' : parseInt(req.params.id) }, noShow, function( err, docs ){
       if (err) { res.send(err); return; }
 
-        var findParams = { 'activo':1, 'circunscripcion': docs.nombre };
+        if(!req.params.q) {
+          req.params.q = {};
+          req.params.q['activo'] = 1;
+        }
+
+        req.params.q['circunscripcion'] = docs.nombre;
         
         db.collection('diputados')
-        .find( findParams, req.params.only || req.params.not || noShow)
+        .find( req.params.q, req.params.only || req.params.not || noShow)
         .sort( req.params.order )
         .limit ( req.params.limit )
         .toArray( function(err,docs2){
@@ -479,23 +492,28 @@ apiServer.get('/organos', function(req, res){
       });
 });
 
-apiServer.get('/', function(req, res){
-	res.send( apiServer.name );
-});
-
 apiServer.get('/eventos', function(req, res){
 
   var collection = db.collection('eventos');
   var noShow = { '_id' : 0 };
+
+  if( !req.params.order ){
+      req.params.order = {};
+      req.params.order['fechahoraJS'] = -1;
+  }
 
   collection
       .find( req.params.q, req.params.only || req.params.not || noShow)
       .sort( req.params.order )
       .limit ( req.params.limit )
       .toArray( function(err,docs){
-    		if(err){ res.send(err); return;}
-    		res.send(docs);
-    	});
+        if(err){ res.send(err); return;}
+        res.send(docs);
+      });
+});
+
+apiServer.get('/', function(req, res){
+	res.send( apiServer.name );
 });
 
 apiServer.get('/test', function(req, res){
@@ -507,8 +525,6 @@ apiServer.get('/test', function(req, res){
       if(err){ res.send(err); return;}
       res.send(docs);
     });
-
-  
 
   /*db.collection('bienes').mapReduce( 
     function(){ 
@@ -550,54 +566,6 @@ apiServer.get('/test', function(req, res){
 
 /**** funtions ********/
 
-function parseSort( reqParams ){
-  var query = JSON.parse(reqParams);
-  var _sort = {};
-  for (paramKey in query){
-    _sort[paramKey] = parseInt(query[paramKey]);
-  }
-  console.log('[Parsing sort]',_sort);
-  return _sort
-}
-
-function parseQuery( findParams, query ){
-  /*
-    ** ISODate pattern
-    (/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/)
-    .test("2013-05-31T00:00:00.000Z")
-  */
-  var ISODatePattern = new RegExp(/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/);
-  function transformDateRecursive(obj){
-    for (var k in obj){
-        if (typeof obj[k] == "object" && obj[k] !== null)
-            transformDateRecursive(obj[k]);
-        else {
-          console.log('final',obj[k],k);
-          obj[k] = new Date(obj[k]);
-        }
-    }
-  } 
-  var hasDates = ISODatePattern.test(query);
-  var query = JSON.parse(query);
-  for( data in query ){
-    if( Object.prototype.toString.call(new Object()) == query[data] || !isNaN(query[data]) ){
-      // es un número o un objeto
-      if ( hasDates ) { transformDateRecursive(query) }
-      findParams[data] = query[data];
-    } else { 
-      // Es un texto
-      findParams[data] = { $regex: query[data], $options:'i'};
-    }
-    console.log("findParams",JSON.stringify(findParams));
-  }
-  return findParams;
-}
-
-function parseFind( query ){
-  var query = JSON.parse(query);
-  return query;
-}
-
 function headers( req, res, next ){
 	res.header("Access-Control-Allow-Origin", "*"); 
   res.header("Access-Control-Allow-Headers", "X-Requested-With");
@@ -623,6 +591,7 @@ function sortParse( req, res, next ){
   next();
 }
 
+// ?only=["nombre", "apellidos"]
 function onlyParse( req, res, next){
   
   if( !req.params.only ) { next(); return; }
@@ -637,6 +606,7 @@ function onlyParse( req, res, next){
   next();
 }
 
+// ?not=["id", "grupo"]
 function notParse( req, res, next){
   
   if( !req.params.not ) { next(); return; }
@@ -651,12 +621,53 @@ function notParse( req, res, next){
   next();
 }
 
+// ?q={"nombre":"mariano"}
+// ?q={"fechahoraJS":{"$gte":"2014-03-27T00:00:00.000Z","$lte":"2014-03-29T00:00:00.000Z"}}
 function findParse( req, res, next){
   if( !req.params.q ) { req.params.q = {}; next(); return; }
   req.params.q = parseQuery( {}, req.params.q );
   console.log(req.params.q);
   next();
 }
+
+function parseQuery( findParams, query ){
+  /*** ISODate pattern
+    
+    (/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/)
+    .test("2013-05-31T00:00:00.000Z")
+  
+  */
+  var ISODatePattern = new RegExp(/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/);
+  var hasDates = ISODatePattern.test(query);
+  var query = JSON.parse(query);
+  for( data in query ){
+    if( isObject(query[data]) || !isNaN(query[data]) ){
+      // es un número o un objeto
+      if ( hasDates ) { transformDateRecursive(query) }
+      findParams[data] = query[data];
+    } else { 
+      // Es un texto
+      findParams[data] = { $regex: query[data], $options:'i'};
+    }
+    console.log("findParams",JSON.stringify(findParams));
+  }
+  return findParams;
+}
+
+function isObject(obj){
+  return Object.prototype.toString.call(new Object()) == obj;
+}
+
+function transformDateRecursive(obj){
+  for (var k in obj){
+      if ( isObject(obj[k]) && obj[k] !== null)
+          transformDateRecursive(obj[k]);
+      else {
+        //console.log('final',obj[k],k);
+        obj[k] = new Date(obj[k]);
+      }
+  }
+} 
 
 apiServer.listen( serverConfig.port, function () {
 	console.log('%s listening at %s', apiServer.name, apiServer.url)
