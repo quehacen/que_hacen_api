@@ -29,6 +29,7 @@ apiServer
   // Middleware query request
   .use(findParse);
 
+
 /***** API *****/
 
 apiServer.get('/diputados', function(req, res){
@@ -480,6 +481,21 @@ apiServer.get('/organos', function(req, res){
 
 apiServer.get('/', function(req, res){
 	res.send( apiServer.name );
+});
+
+apiServer.get('/eventos', function(req, res){
+
+  var collection = db.collection('eventos');
+  var noShow = { '_id' : 0 };
+
+  collection
+      .find( req.params.q, req.params.only || req.params.not || noShow)
+      .sort( req.params.order )
+      .limit ( req.params.limit )
+      .toArray( function(err,docs){
+    		if(err){ res.send(err); return;}
+    		res.send(docs);
+    	});
 });
 
 apiServer.get('/test', function(req, res){
