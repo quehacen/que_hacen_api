@@ -500,6 +500,16 @@ apiServer.get('/eventos', function(req, res){
 
 apiServer.get('/test', function(req, res){
 
+  db.collection('eventos')
+    .find({fechahoraJS:{$gte: new Date(Date.now()) }})
+    //.find()
+    .toArray( function(err,docs){
+      if(err){ res.send(err); return;}
+      res.send(docs);
+    });
+
+  
+
   /*db.collection('bienes').mapReduce( 
     function(){ 
       var output = { "diputadoID" : this._id }
@@ -515,7 +525,7 @@ apiServer.get('/test', function(req, res){
       res.send(arguments);
     }
   );*/
-
+/*
   var mapFn = function(){ 
     var output = { "diputadoID" : db.diputados.findOne({ id: this.idDipu }) }
     emit(this._id, output);
@@ -533,6 +543,7 @@ apiServer.get('/test', function(req, res){
   db.runCommand(MR, function(err, dbres) {
       res.send(dbres);
   });
+*/
 
 });
 
@@ -550,10 +561,28 @@ function parseSort( reqParams ){
 }
 
 function parseQuery( findParams, query ){
+  /*
+    ** ISODate pattern
+    (/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/)
+    .test("2013-05-31T00:00:00.000Z")
+  */
+  var ISODatePattern = new RegExp(/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/);
+  function transformDateRecursive(obj){
+    for (var k in obj){
+        if (typeof obj[k] == "object" && obj[k] !== null)
+            transformDateRecursive(obj[k]);
+        else {
+          console.log('final',obj[k],k);
+          obj[k] = new Date(obj[k]);
+        }
+    }
+  } 
+  var hasDates = ISODatePattern.test(query);
   var query = JSON.parse(query);
   for( data in query ){
     if( Object.prototype.toString.call(new Object()) == query[data] || !isNaN(query[data]) ){
       // es un número o un objeto
+      if ( hasDates ) { transformDateRecursive(query) }
       findParams[data] = query[data];
     } else { 
       // Es un texto
