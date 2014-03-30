@@ -310,11 +310,8 @@ apiServer.get('/formacion/:id', function(req, res){
   req.params.q['id']=parseInt(req.params.id);
 
   collection
-    .find( req.params.q, req.params.only || req.params.not || noShow)
-    .limit ( req.params.limit )
-    .sort( req.params.order )
-    .toArray( function(err,docs){
-      if(err){ res.send(err); return; }
+      .findOne( req.params.q, req.params.only || req.params.not || noShow, function( err, docs ){
+      if (err) { res.send(err); return; }
       res.send(docs);
     });
 });
@@ -486,9 +483,9 @@ apiServer.get('/organos', function(req, res){
       .find( req.params.q, req.params.only || req.params.not || noShow)
       .sort( req.params.order )
       .limit ( req.params.limit )
-      .toArray( function(err,docs2){
+      .toArray( function(err,docs){
         if(err){ res.send(err); return;}
-        res.send(docs2);
+        res.send(docs);
       });
 });
 
