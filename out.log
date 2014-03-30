@@ -1,0 +1,54 @@
+findParams {"activo":1}
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"activo":1}
+{ activo: 1 }
+{ activo: 1 }
+{}
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{}
+{}
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{}
+{}
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+undefined
+!req.params.q { activo: 1 }
+{ activo: 1 }
+undefined
+!req.params.q { activo: 1 }
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"activo":0}
+{ activo: 0 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"activo":0}
+{ activo: 0 }
+!req.params.q['activo'] true
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"activo":0}
+{ activo: 0 }
+!req.params.q['activo'] true
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"activo":0}
+{ activo: 0 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
