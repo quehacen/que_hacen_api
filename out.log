@@ -58,3 +58,166 @@ findParams {"cargos_congreso.idOrgano":300}
 { 'cargos_congreso.idOrgano': 300 }
 findParams {"cargos_congreso.idOrgano":300}
 { 'cargos_congreso.idOrgano': 300 }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+findParams {"activo":1}
+{ activo: 1 }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":400}
+findParams {"organo.id":400,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 400,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"cesar-luena-lopez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'cesar-luena-lopez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+("normalized.url" in req.params.q) true
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+("normalized.url" in req.params.q) true
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' },
+  activo: 1 }
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+("normalized.url" in req.params.q) true
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' },
+  activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+("normalized.url" in req.params.q) true
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"julia-de-micheo-carrilloalbornoz","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'julia-de-micheo-carrilloalbornoz',
+     '$options': 'i' } }
+("normalized.url" in req.params.q) true
+{ 'normalized.url': 
+   { '$regex': 'julia-de-micheo-carrilloalbornoz',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+("normalized.url" in req.params.q) true
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"julia-de-micheo-carrilloalbornoz","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'julia-de-micheo-carrilloalbornoz',
+     '$options': 'i' } }
+("normalized.url" in req.params.q) true
+{ 'normalized.url': 
+   { '$regex': 'julia-de-micheo-carrilloalbornoz',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+("normalized.url" in req.params.q) true
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+("normalized.url" in req.params.q) true
+1
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+("normalized.url" in req.params.q) false
+0
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"gaspar-llamazares-trigo","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gaspar-llamazares-trigo', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gaspar-llamazares-trigo', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"joan-josep-nuet-pujals","$options":"i"}}
+{ 'normalized.url': { '$regex': 'joan-josep-nuet-pujals', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'joan-josep-nuet-pujals', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }

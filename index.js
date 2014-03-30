@@ -37,10 +37,10 @@ apiServer.get('/diputados', function(req, res){
   	var collection = db.collection('diputados');
   	var noShow = { '_id' : 0 };
 
-    if( !("activo" in req.params.q) ) {
+    if( !Object.keys(req.params.q).length ) {
       req.params.q['activo'] = 1;
     }
-
+    console.log(req.params.q)
     if( !req.params.order ) {
       req.params.order = {};
       req.params.order['normalized.apellidos'] = 1;
