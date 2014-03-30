@@ -37,7 +37,7 @@ apiServer.get('/diputados', function(req, res){
   	var collection = db.collection('diputados');
   	var noShow = { '_id' : 0 };
 
-    if(!req.params.q['activo']) {
+    if( !("activo" in req.params.q) ) {
       req.params.q['activo'] = 1;
     }
 
@@ -452,7 +452,7 @@ apiServer.get('/circunscripcion/:id/diputados', function(req, res){
       .findOne({ 'id' : parseInt(req.params.id) }, noShow, function( err, docs ){
       if (err) { res.send(err); return; }
 
-        if(!req.params.q['activo']) {
+        if( !("activo" in req.params.q) ) {
           req.params.q['activo'] = 1;
         }
 
