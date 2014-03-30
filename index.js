@@ -37,8 +37,7 @@ apiServer.get('/diputados', function(req, res){
   	var collection = db.collection('diputados');
   	var noShow = { '_id' : 0 };
 
-    if(!req.params.q) {
-      req.params.q = {};
+    if(!req.params.q['activo']) {
       req.params.q['activo'] = 1;
     }
 
@@ -109,9 +108,6 @@ apiServer.get('/diputado/:id/votaciones', function(req, res){
           req.params.order['fecha'] = -1;
         }
 
-        if(!req.params.q) {
-          req.params.q = {};
-        }
         req.params.q['xml.resultado.votaciones.votacion'] = { $elemMatch: { 'diputado': docs.apellidos+', '+docs.nombre } };
         
         votaciones
@@ -456,8 +452,7 @@ apiServer.get('/circunscripcion/:id/diputados', function(req, res){
       .findOne({ 'id' : parseInt(req.params.id) }, noShow, function( err, docs ){
       if (err) { res.send(err); return; }
 
-        if(!req.params.q) {
-          req.params.q = {};
+        if(!req.params.q['activo']) {
           req.params.q['activo'] = 1;
         }
 
