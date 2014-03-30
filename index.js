@@ -651,12 +651,15 @@ function isObject(obj){
 }
 
 function transformDateRecursive(obj){
+  var ISODatePattern = new RegExp(/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/);
   for (var k in obj){
       if ( isObject(obj[k]) && obj[k] !== null)
           transformDateRecursive(obj[k]);
       else {
         //console.log('final',obj[k],k);
-        obj[k] = new Date(obj[k]);
+        if(ISODatePattern.test(obj[k])){
+          obj[k] = new Date(obj[k]);
+        }
       }
   }
 } 

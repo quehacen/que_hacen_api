@@ -1,82 +1,60 @@
-findParams {"activo":1}
-{ activo: 1 }
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-findParams {"activo":1}
-{ activo: 1 }
-{ activo: 1 }
-{}
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-{}
-{}
+findParams {"organo.id":"1970-01-01T00:00:00.500Z"}
+findParams {"organo.id":"1970-01-01T00:00:00.500Z","fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': Thu Jan 01 1970 01:00:00 GMT+0100 (CET),
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
 api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
 api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
 api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
 api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-{}
-{}
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-undefined
-!req.params.q { activo: 1 }
-{ activo: 1 }
-undefined
-!req.params.q { activo: 1 }
-{ activo: 1 }
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-findParams {"activo":0}
-{ activo: 0 }
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-findParams {"activo":0}
-{ activo: 0 }
-!req.params.q['activo'] true
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-findParams {"activo":0}
-{ activo: 0 }
-!req.params.q['activo'] true
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-findParams {"activo":0}
-{ activo: 0 }
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"activo":0}
-{ activo: 0 }
-findParams {"normalized.url":{"$regex":"paloma-garcia-galvez","$options":"i"}}
-{ 'normalized.url': { '$regex': 'paloma-garcia-galvez', '$options': 'i' } }
-findParams {"normalized.url":{"$regex":"paloma-garcia-galvez","$options":"i"}}
-{ 'normalized.url': { '$regex': 'paloma-garcia-galvez', '$options': 'i' } }
-findParams {"activo":1}
-{ activo: 1 }
-findParams {"activo":1}
-{ activo: 1 }
-findParams {"activo":1}
-{ activo: 1 }
-findParams {"activo":1}
-findParams {"activo":1}
-{ activo: 1 }
-{ activo: 1 }
-findParams {"normalized.url":{"$regex":"susana-sumelzo-jordan","$options":"i"}}
-{ 'normalized.url': { '$regex': 'susana-sumelzo-jordan', '$options': 'i' } }
-findParams {"normalized.url":{"$regex":"susana-sumelzo-jordan","$options":"i"}}
-{ 'normalized.url': { '$regex': 'susana-sumelzo-jordan', '$options': 'i' } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"normalized.url":{"$regex":"diputacion-permanente","$options":"i"}}
+{ 'normalized.url': { '$regex': 'diputacion-permanente', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":500}
+{ 'cargos_congreso.idOrgano': 500 }
+findParams {"cargos_congreso.idOrgano":500}
+{ 'cargos_congreso.idOrgano': 500 }
+findParams {"tipo":{"$regex":"^S","$options":"i"}}
+{ tipo: { '$regex': '^S', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"subcomision-analisis-problemas-estructurales-sistema-sanitario","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'subcomision-analisis-problemas-estructurales-sistema-sanitario',
+     '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":325201}
+{ 'cargos_congreso.idOrgano': 325201 }
+findParams {"cargos_congreso.idOrgano":325201}
+{ 'cargos_congreso.idOrgano': 325201 }
+findParams {"tipo":{"$regex":"^C","$options":"i"}}
+{ tipo: { '$regex': '^C', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"diputacion-permanente","$options":"i"}}
+{ 'normalized.url': { '$regex': 'diputacion-permanente', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":500}
+{ 'cargos_congreso.idOrgano': 500 }
+findParams {"cargos_congreso.idOrgano":500}
+{ 'cargos_congreso.idOrgano': 500 }
+findParams {"normalized.url":{"$regex":"junta-de-portavoces","$options":"i"}}
+{ 'normalized.url': { '$regex': 'junta-de-portavoces', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"normalized.url":{"$regex":"junta-de-portavoces","$options":"i"}}
+{ 'normalized.url': { '$regex': 'junta-de-portavoces', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"normalized.url":{"$regex":"junta-de-portavoces","$options":"i"}}
+{ 'normalized.url': { '$regex': 'junta-de-portavoces', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"normalized.url":{"$regex":"junta-de-portavoces","$options":"i"}}
+{ 'normalized.url': { '$regex': 'junta-de-portavoces', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
