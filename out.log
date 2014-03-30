@@ -52,3 +52,31 @@ findParams {"activo":0}
 { activo: 0 }
 findParams {"activo":0}
 { activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"activo":0}
+{ activo: 0 }
+findParams {"normalized.url":{"$regex":"paloma-garcia-galvez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'paloma-garcia-galvez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"paloma-garcia-galvez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'paloma-garcia-galvez', '$options': 'i' } }
+findParams {"activo":1}
+{ activo: 1 }
+findParams {"activo":1}
+{ activo: 1 }
+findParams {"activo":1}
+{ activo: 1 }
+findParams {"activo":1}
+findParams {"activo":1}
+{ activo: 1 }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"susana-sumelzo-jordan","$options":"i"}}
+{ 'normalized.url': { '$regex': 'susana-sumelzo-jordan', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"susana-sumelzo-jordan","$options":"i"}}
+{ 'normalized.url': { '$regex': 'susana-sumelzo-jordan', '$options': 'i' } }
