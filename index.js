@@ -20,6 +20,7 @@ apiServer
   .use(headers)
   // Middleware limit request
   .use(limitParse)
+  .use(skipParse)
   // Middleware sort request
 	.use(sortParse)
   // Middleware only request
@@ -37,10 +38,10 @@ apiServer.get('/diputados', function(req, res){
   	var collection = db.collection('diputados');
   	var noShow = { '_id' : 0 };
 
-    if( !("activo" in req.params.q) ) {
+    if( !Object.keys(req.params.q).length ) {
       req.params.q['activo'] = 1;
     }
-
+    console.log(req.params.q)
     if( !req.params.order ) {
       req.params.order = {};
       req.params.order['normalized.apellidos'] = 1;
@@ -398,6 +399,7 @@ apiServer.get('/iniciativas', function(req, res){
     collection
       .find( req.params.q, req.params.only || req.params.not || noShow)
       .limit ( req.params.limit )
+      .skip( req.params.skip )
       .sort( req.params.order )
       .toArray(function(err,docs){
         if(err){ res.send(err); return;}
@@ -570,6 +572,12 @@ function limitParse( req, res, next ){
   next();
 }
 
+// ?limit=10
+function skipParse( req, res, next ){
+  req.params.skip = parseInt( req.params.skip || 0 );
+  next();
+}
+
 // ?order={"xml.resultado.totales.encontra":1}
 function sortParse( req, res, next ){
   if( !req.params.order ) { next(); return; }
@@ -651,12 +659,15 @@ function isObject(obj){
 }
 
 function transformDateRecursive(obj){
+  var ISODatePattern = new RegExp(/(\d{4})\D?(0[1-9]|1[0-2])\D?([12]\d|0[1-9]|3[01])(\D?([01]\d|2[0-3])\D?([0-5]\d)\D?([0-5]\d)?\D?(\d{3})?([zZ]|([\+-])([01]\d|2[0-3])\D?([0-5]\d)?)?)?/);
   for (var k in obj){
       if ( isObject(obj[k]) && obj[k] !== null)
           transformDateRecursive(obj[k]);
       else {
         //console.log('final',obj[k],k);
-        obj[k] = new Date(obj[k]);
+        if(ISODatePattern.test(obj[k])){
+          obj[k] = new Date(obj[k]);
+        }
       }
   }
 } 
