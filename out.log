@@ -221,3 +221,1784 @@ findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","
 findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
 { 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
 { 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"felix-lavilla-martinez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'felix-lavilla-martinez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'felix-lavilla-martinez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"luis-lopez-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'luis-lopez-jimenez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1396218949}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1396218949 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1396218949}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1396218949 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"federico-trillofigueroa-martinezconde","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'federico-trillofigueroa-martinezconde',
+     '$options': 'i' } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z","$gte":"2014-03-10T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: 
+   { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST),
+     '$gte': Mon Mar 10 2014 21:53:13 GMT+0100 (CET) } }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1396301688}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1396301688 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1396301688}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1396301688 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lte":"2014-03-30T20:53:13.329Z","$gte":"2014-02-10T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: 
+   { '$lte': Sun Mar 30 2014 22:53:13 GMT+0200 (CEST),
+     '$gte': Mon Feb 10 2014 21:53:13 GMT+0100 (CET) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$gte":"2014-01-30T20:53:13.329Z","$lt":"2014-04-10T20:53:13.329Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: 
+   { '$gte': Thu Jan 30 2014 21:53:13 GMT+0100 (CET),
+     '$lt': Thu Apr 10 2014 22:53:13 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$gte":"2011-12-13T09:00:00.000Z","$lt":"2013-12-13T09:00:00.000Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: 
+   { '$gte': Tue Dec 13 2011 10:00:00 GMT+0100 (CET),
+     '$lt': Fri Dec 13 2013 10:00:00 GMT+0100 (CET) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$gte":"2013-12-13T09:00:00.000Z","$lt":"2014-12-13T09:00:00.000Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: 
+   { '$gte': Fri Dec 13 2013 10:00:00 GMT+0100 (CET),
+     '$lt': Sat Dec 13 2014 10:00:00 GMT+0100 (CET) } }
+findParams {"normalized.url":{"$regex":"junta-de-portavoces","$options":"i"}}
+{ 'normalized.url': { '$regex': 'junta-de-portavoces', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"organo.id":300}
+findParams {"organo.id":300,"fechahorats":{"$gte":1396302543}}
+{ 'organo.id': 300, fechahorats: { '$gte': 1396302543 } }
+findParams {"organo.id":300}
+findParams {"organo.id":300,"fechahorats":{"$lt":1396302543}}
+{ 'organo.id': 300, fechahorats: { '$lt': 1396302543 } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"normalized.url":{"$regex":"junta-de-portavoces","$options":"i"}}
+{ 'normalized.url': { '$regex': 'junta-de-portavoces', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+{ 'cargos_congreso.idOrgano': 300 }
+findParams {"organo.id":300}
+findParams {"organo.id":300,"fechahorats":{"$gte":1396302627}}
+{ 'organo.id': 300, fechahorats: { '$gte': 1396302627 } }
+findParams {"organo.id":300}
+findParams {"organo.id":300,"fechahorats":{"$lt":1396302627}}
+{ 'organo.id': 300, fechahorats: { '$lt': 1396302627 } }
+findParams {"cargos_congreso.idOrgano":300}
+{ 'cargos_congreso.idOrgano': 300 }
+{ 'cargos_congreso.idOrgano': 300 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"id":1}
+{ id: 1 }
+{ id: 1 }
+findParams {"id":325}
+{ id: 325 }
+{ id: 325 }
+findParams {"id":233}
+{ id: 233 }
+{ id: 233 }
+findParams {"id":273}
+{ id: 273 }
+{ id: 273 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"activo":0}
+{ activo: 0 }
+{ activo: 0 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":"1970-01-17T04:04:41.505Z"}}
+{ 'organo.id': 100,
+  fechahorats: { '$gte': Sat Jan 17 1970 05:04:41 GMT+0100 (CET) } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":"1970-01-17T04:04:41.505Z"}}
+{ 'organo.id': 100,
+  fechahorats: { '$lt': Sat Jan 17 1970 05:04:41 GMT+0100 (CET) } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"tipo":{"$regex":"^C","$options":"i"}}
+{ tipo: { '$regex': '^C', '$options': 'i' } }
+findParams {"tipo":{"$regex":"^S","$options":"i"}}
+{ tipo: { '$regex': '^S', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"diputacion-permanente","$options":"i"}}
+{ 'normalized.url': { '$regex': 'diputacion-permanente', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":500}
+{ 'cargos_congreso.idOrgano': 500 }
+{ 'cargos_congreso.idOrgano': 500 }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$gte":"2014-04-09T22:11:56.474Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$gte': Thu Apr 10 2014 00:11:56 GMT+0200 (CEST) } }
+findParams {"organo.id":500}
+findParams {"organo.id":500,"fechahoraJS":{"$lt":"2014-04-09T22:11:56.474Z"}}
+{ 'organo.id': 500,
+  fechahoraJS: { '$lt': Thu Apr 10 2014 00:11:56 GMT+0200 (CEST) } }
+findParams {"cargos_congreso.idOrgano":500}
+{ 'cargos_congreso.idOrgano': 500 }
+{ 'cargos_congreso.idOrgano': 500 }
+findParams {"normalized.url":{"$regex":"teresa-cunillera-mestres","$options":"i"}}
+{ 'normalized.url': { '$regex': 'teresa-cunillera-mestres', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'teresa-cunillera-mestres', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":[""]}}
+{ nombre: { '$in': [ '' ] } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":[""]}}
+{ nombre: { '$in': [ '' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Socialista","$options":"i"}}
+{ nombre: { '$regex': 'Socialista', '$options': 'i' } }
+findParams {"nombre":{"$in":["PSOE","PSC-PSOE"]}}
+{ nombre: { '$in': [ 'PSOE', 'PSC-PSOE' ] } }
+findParams {"nombre":{"$regex":"Catalán","$options":"i"}}
+{ nombre: { '$regex': 'Catalán', '$options': 'i' } }
+findParams {"nombre":{"$in":["CiU"]}}
+{ nombre: { '$in': [ 'CiU' ] } }
+findParams {"nombre":{"$regex":"La Izquierda Plural","$options":"i"}}
+{ nombre: { '$regex': 'La Izquierda Plural', '$options': 'i' } }
+findParams {"nombre":{"$in":["IULV-CA","IU-LV","CHA-IU","ICV-EUiA","IU-IX","EUPV-EV"]}}
+{ nombre: { '$in': [ 'IULV-CA', 'IU-LV', 'CHA-IU', 'ICV-EUiA', 'IU-IX', 'EUPV-EV' ] } }
+findParams {"nombre":{"$regex":"Unión Progreso y Democracia","$options":"i"}}
+{ nombre: { '$regex': 'Unión Progreso y Democracia', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPyD"]}}
+{ nombre: { '$in': [ 'UPyD' ] } }
+findParams {"nombre":{"$regex":"Vasco","$options":"i"}}
+{ nombre: { '$regex': 'Vasco', '$options': 'i' } }
+findParams {"nombre":{"$in":["EAJ-PNV"]}}
+{ nombre: { '$in': [ 'EAJ-PNV' ] } }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPN-PP","FAC","GBAI","COMPROMÍS-Q","BNG","ERC-RI.cat","CC-NC-PNC","AMAIUR"]}}
+{ nombre: 
+   { '$in': 
+      [ 'UPN-PP',
+        'FAC',
+        'GBAI',
+        'COMPROMÍS-Q',
+        'BNG',
+        'ERC-RI.cat',
+        'CC-NC-PNC',
+        'AMAIUR' ] } }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPN-PP","FAC","GBAI","COMPROMÍS-Q","BNG","ERC-RI.cat","CC-NC-PNC","AMAIUR"]}}
+{ nombre: 
+   { '$in': 
+      [ 'UPN-PP',
+        'FAC',
+        'GBAI',
+        'COMPROMÍS-Q',
+        'BNG',
+        'ERC-RI.cat',
+        'CC-NC-PNC',
+        'AMAIUR' ] } }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPN-PP","FAC","GBAI","COMPROMÍS-Q","BNG","ERC-RI.cat","CC-NC-PNC","AMAIUR"]}}
+{ nombre: 
+   { '$in': 
+      [ 'UPN-PP',
+        'FAC',
+        'GBAI',
+        'COMPROMÍS-Q',
+        'BNG',
+        'ERC-RI.cat',
+        'CC-NC-PNC',
+        'AMAIUR' ] } }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPN-PP","FAC","GBAI","COMPROMÍS-Q","BNG","ERC-RI.cat","CC-NC-PNC","AMAIUR"]}}
+{ nombre: 
+   { '$in': 
+      [ 'UPN-PP',
+        'FAC',
+        'GBAI',
+        'COMPROMÍS-Q',
+        'BNG',
+        'ERC-RI.cat',
+        'CC-NC-PNC',
+        'AMAIUR' ] } }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPN-PP","FAC","GBAI","COMPROMÍS-Q","BNG","ERC-RI.cat","CC-NC-PNC","AMAIUR"]}}
+{ nombre: 
+   { '$in': 
+      [ 'UPN-PP',
+        'FAC',
+        'GBAI',
+        'COMPROMÍS-Q',
+        'BNG',
+        'ERC-RI.cat',
+        'CC-NC-PNC',
+        'AMAIUR' ] } }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPN-PP","FAC","GBAI","COMPROMÍS-Q","BNG","ERC-RI.cat","CC-NC-PNC","AMAIUR"]}}
+{ nombre: 
+   { '$in': 
+      [ 'UPN-PP',
+        'FAC',
+        'GBAI',
+        'COMPROMÍS-Q',
+        'BNG',
+        'ERC-RI.cat',
+        'CC-NC-PNC',
+        'AMAIUR' ] } }
+findParams {"nombre":{"$regex":"Unión Progreso y Democracia","$options":"i"}}
+{ nombre: { '$regex': 'Unión Progreso y Democracia', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPyD"]}}
+{ nombre: { '$in': [ 'UPyD' ] } }
+findParams {"nombre":{"$regex":"Unión Progreso y Democracia","$options":"i"}}
+{ nombre: { '$regex': 'Unión Progreso y Democracia', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPyD"]}}
+{ nombre: { '$in': [ 'UPyD' ] } }
+findParams {"nombre":{"$regex":"Unión Progreso y Democracia","$options":"i"}}
+{ nombre: { '$regex': 'Unión Progreso y Democracia', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPyD"]}}
+{ nombre: { '$in': [ 'UPyD' ] } }
+findParams {"nombre":{"$regex":"Unión Progreso y Democracia","$options":"i"}}
+{ nombre: { '$regex': 'Unión Progreso y Democracia', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPyD"]}}
+{ nombre: { '$in': [ 'UPyD' ] } }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"jose-luis-abalos-meco","$options":"i"}}
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"jose-luis-abalos-meco","$options":"i"}}
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"jose-luis-abalos-meco","$options":"i"}}
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+findParams {"cargos_congreso.baja":{"$exists":true}}
+{ 'cargos_congreso.baja': { '$exists': true } }
+findParams {"id":268}
+findParams {"id":268,"cargos_congreso.baja":{"$exists":false}}
+{ id: 268, 'cargos_congreso.baja': { '$exists': false } }
+{ id: 268, 'cargos_congreso.baja': { '$exists': false } }
+findParams {"normalized.url":{"$regex":"jose-luis-abalos-meco","$options":"i"}}
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'jose-luis-abalos-meco', '$options': 'i' } }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"chesus-yuste-cabello","$options":"i"}}
+{ 'normalized.url': { '$regex': 'chesus-yuste-cabello', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'chesus-yuste-cabello', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"chesus-yuste-cabello","$options":"i"}}
+{ 'normalized.url': { '$regex': 'chesus-yuste-cabello', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'chesus-yuste-cabello', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1397169162}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1397169162 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1397169162}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1397169162 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1397169352}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1397169352 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1397169352}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1397169352 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1397169455}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1397169455 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1397169455}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1397169455 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1397169476}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1397169476 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1397169476}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1397169476 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1397169807}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1397169807 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1397169807}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1397169807 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"normalized.url":{"$regex":"mesa-del-congreso","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mesa-del-congreso', '$options': 'i' } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$gte":1397172159}}
+{ 'organo.id': 100, fechahorats: { '$gte': 1397172159 } }
+findParams {"organo.id":100}
+findParams {"organo.id":100,"fechahorats":{"$lt":1397172159}}
+{ 'organo.id': 100, fechahorats: { '$lt': 1397172159 } }
+findParams {"cargos_congreso.idOrgano":100}
+{ 'cargos_congreso.idOrgano': 100 }
+{ 'cargos_congreso.idOrgano': 100 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"angeles-alvarez-alvarez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'angeles-alvarez-alvarez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'angeles-alvarez-alvarez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"angeles-alvarez-alvarez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'angeles-alvarez-alvarez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'angeles-alvarez-alvarez', '$options': 'i' } }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"alberto-ruizgallardon-jimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'alberto-ruizgallardon-jimenez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'alberto-ruizgallardon-jimenez', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"andrea-fabra-fernandez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'andrea-fabra-fernandez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'andrea-fabra-fernandez', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"maria-arenales-serrano-arguello","$options":"i"}}
+{ 'normalized.url': { '$regex': 'maria-arenales-serrano-arguello', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'maria-arenales-serrano-arguello', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"antonio-gallego-burgos","$options":"i"}}
+{ 'normalized.url': { '$regex': 'antonio-gallego-burgos', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'antonio-gallego-burgos', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"jorge-fernandez-diaz","$options":"i"}}
+{ 'normalized.url': { '$regex': 'jorge-fernandez-diaz', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'jorge-fernandez-diaz', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"maria-fatima-banez-garcia","$options":"i"}}
+{ 'normalized.url': { '$regex': 'maria-fatima-banez-garcia', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'maria-fatima-banez-garcia', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"maria-fatima-banez-garcia","$options":"i"}}
+{ 'normalized.url': { '$regex': 'maria-fatima-banez-garcia', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'maria-fatima-banez-garcia', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"maria-fatima-banez-garcia","$options":"i"}}
+{ 'normalized.url': { '$regex': 'maria-fatima-banez-garcia', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'maria-fatima-banez-garcia', '$options': 'i' } }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"vicente-martinezpujalte-lopez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'vicente-martinezpujalte-lopez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'vicente-martinezpujalte-lopez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"murcia","$options":"i"}}
+{ 'normalized.url': { '$regex': 'murcia', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"madrid","$options":"i"}}
+{ 'normalized.url': { '$regex': 'madrid', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"sara-cobos-trallero","$options":"i"}}
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"baudilio-tome-muguruza","$options":"i"}}
+{ 'normalized.url': { '$regex': 'baudilio-tome-muguruza', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'baudilio-tome-muguruza', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"sara-cobos-trallero","$options":"i"}}
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+findParams {"cargos_congreso.baja":{"$exists":true}}
+{ 'cargos_congreso.baja': { '$exists': true } }
+findParams {"id":364}
+findParams {"id":364,"cargos_congreso.baja":{"$exists":false}}
+{ id: 364, 'cargos_congreso.baja': { '$exists': false } }
+{ id: 364, 'cargos_congreso.baja': { '$exists': false } }
+findParams {"normalized.url":{"$regex":"sara-cobos-trallero","$options":"i"}}
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"sara-cobos-trallero","$options":"i"}}
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"sara-cobos-trallero","$options":"i"}}
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'sara-cobos-trallero', '$options': 'i' } }
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"normalized.url":{"$regex":"alfonso-candon-adan","$options":"i"}}
+{ 'normalized.url': { '$regex': 'alfonso-candon-adan', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'alfonso-candon-adan', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"alfonso-candon-adan","$options":"i"}}
+{ 'normalized.url': { '$regex': 'alfonso-candon-adan', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'alfonso-candon-adan', '$options': 'i' } }
+findParams {"cargos_congreso.baja":{"$exists":true}}
+{ 'cargos_congreso.baja': { '$exists': true } }
+findParams {"id":56}
+findParams {"id":56,"cargos_congreso.baja":{"$exists":false}}
+{ id: 56, 'cargos_congreso.baja': { '$exists': false } }
+{ id: 56, 'cargos_congreso.baja': { '$exists': false } }
+findParams {"normalized.url":{"$regex":"jorge-fernandez-diaz","$options":"i"}}
+{ 'normalized.url': { '$regex': 'jorge-fernandez-diaz', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'jorge-fernandez-diaz', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"carmen-monton-gimenez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'carmen-monton-gimenez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'carmen-monton-gimenez', '$options': 'i' } }
+findParams {"nombre":{"$regex":"Socialista","$options":"i"}}
+{ nombre: { '$regex': 'Socialista', '$options': 'i' } }
+findParams {"nombre":{"$in":["PSOE","PSC-PSOE"]}}
+{ nombre: { '$in': [ 'PSOE', 'PSC-PSOE' ] } }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{ activo: 1 }
+{ activo: 1 }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"rogelio-araujo-gil","$options":"i"}}
+{ 'normalized.url': { '$regex': 'rogelio-araujo-gil', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'rogelio-araujo-gil', '$options': 'i' } }
+{ activo: 1 }
+{ activo: 1 }
+{ activo: 1 }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"juan-antonio-abad-perez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'juan-antonio-abad-perez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'juan-antonio-abad-perez', '$options': 'i' } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"iker-urbina-fernandez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'iker-urbina-fernandez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'iker-urbina-fernandez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"marti-barbera-i-montserrat","$options":"i"}}
+{ 'normalized.url': { '$regex': 'marti-barbera-i-montserrat', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'marti-barbera-i-montserrat', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"celia-alberto-perez","$options":"i"}}
+{ 'normalized.url': { '$regex': 'celia-alberto-perez', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'celia-alberto-perez', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"guillermo-mariscal-anaya","$options":"i"}}
+{ 'normalized.url': { '$regex': 'guillermo-mariscal-anaya', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'guillermo-mariscal-anaya', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"guillermo-mariscal-anaya","$options":"i"}}
+{ 'normalized.url': { '$regex': 'guillermo-mariscal-anaya', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'guillermo-mariscal-anaya', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ activo: 1 }
+findParams {"normalized.url":{"$regex":"joseba-andoni-agirretxea-urresti","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'joseba-andoni-agirretxea-urresti',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'joseba-andoni-agirretxea-urresti',
+     '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"ana-maria-oramas-gonzalezmoro","$options":"i"}}
+{ 'normalized.url': { '$regex': 'ana-maria-oramas-gonzalezmoro', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'ana-maria-oramas-gonzalezmoro', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"enrique-alvarez-sostres","$options":"i"}}
+{ 'normalized.url': { '$regex': 'enrique-alvarez-sostres', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'enrique-alvarez-sostres', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"carlos-casimiro-salvador-armendariz","$options":"i"}}
+{ 'normalized.url': 
+   { '$regex': 'carlos-casimiro-salvador-armendariz',
+     '$options': 'i' } }
+{ 'normalized.url': 
+   { '$regex': 'carlos-casimiro-salvador-armendariz',
+     '$options': 'i' } }
+findParams {"nombre":{"$regex":"Popular","$options":"i"}}
+{ nombre: { '$regex': 'Popular', '$options': 'i' } }
+findParams {"nombre":{"$in":["PP","PP-EU","PP-PAR","UPN-PP"]}}
+{ nombre: { '$in': [ 'PP', 'PP-EU', 'PP-PAR', 'UPN-PP' ] } }
+findParams {"nombre":{"$regex":"Mixto","$options":"i"}}
+{ nombre: { '$regex': 'Mixto', '$options': 'i' } }
+findParams {"nombre":{"$in":["UPN-PP","FAC","GBAI","COMPROMÍS-Q","BNG","ERC-RI.cat","CC-NC-PNC","AMAIUR"]}}
+{ nombre: 
+   { '$in': 
+      [ 'UPN-PP',
+        'FAC',
+        'GBAI',
+        'COMPROMÍS-Q',
+        'BNG',
+        'ERC-RI.cat',
+        'CC-NC-PNC',
+        'AMAIUR' ] } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ activo: 1 }
+findParams {"activo":0}
+{ activo: 0 }
+{ activo: 0 }
+findParams {"normalized":{"$exists":true}}
+{ normalized: { '$exists': true } }
+{ normalized: { '$exists': true } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"emilio-olabarria-munoz","$options":"i"}}
+{ 'normalized.url': { '$regex': 'emilio-olabarria-munoz', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'emilio-olabarria-munoz', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+findParams {"normalized.url":{"$regex":"gabriel-elorriaga-pisarik","$options":"i"}}
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'gabriel-elorriaga-pisarik', '$options': 'i' } }
+findParams {"normalized.url":{"$regex":"mario-bedera-bravo","$options":"i"}}
+{ 'normalized.url': { '$regex': 'mario-bedera-bravo', '$options': 'i' } }
+{ 'normalized.url': { '$regex': 'mario-bedera-bravo', '$options': 'i' } }
+{ activo: 1 }
