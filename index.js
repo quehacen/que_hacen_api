@@ -20,6 +20,7 @@ apiServer
   .use(headers)
   // Middleware limit request
   .use(limitParse)
+  .use(skipParse)
   // Middleware sort request
 	.use(sortParse)
   // Middleware only request
@@ -398,6 +399,7 @@ apiServer.get('/iniciativas', function(req, res){
     collection
       .find( req.params.q, req.params.only || req.params.not || noShow)
       .limit ( req.params.limit )
+      .skip( req.params.skip )
       .sort( req.params.order )
       .toArray(function(err,docs){
         if(err){ res.send(err); return;}
@@ -567,6 +569,12 @@ function headers( req, res, next ){
 // ?limit=10
 function limitParse( req, res, next ){
   req.params.limit = parseInt( req.params.limit || 0 );
+  next();
+}
+
+// ?limit=10
+function skipParse( req, res, next ){
+  req.params.skip = parseInt( req.params.skip || 0 );
   next();
 }
 
