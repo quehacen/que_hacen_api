@@ -21,6 +21,7 @@ apiServer
   // Middleware limit request
   .use(limitParse)
   .use(skipParse)
+  .use(countParse)
   // Middleware sort request
 	.use(sortParse)
   // Middleware only request
@@ -396,14 +397,29 @@ apiServer.get('/iniciativas', function(req, res){
         req.params.order['presentadoJS'] = -1;
     }
 
-    collection
+    
+   if(req.params.count == 1){
+	   var count;
+	   collection.find(req.params.q).count(function(err,resp){
+		count=resp;
+	   });
+   }
+
+   collection
       .find( req.params.q, req.params.only || req.params.not || noShow)
       .limit ( req.params.limit )
       .skip( req.params.skip )
       .sort( req.params.order )
       .toArray(function(err,docs){
         if(err){ res.send(err); return;}
-        res.send(docs);
+        if(req.params.count == 1){
+	   var resul={};
+	   resul.totalObjects=count;
+	   resul.result=docs;
+	   res.send(resul);
+	   return;
+	}
+	res.send(docs);
       });
 });
 
@@ -572,9 +588,15 @@ function limitParse( req, res, next ){
   next();
 }
 
-// ?limit=10
+// ?skip=10
 function skipParse( req, res, next ){
   req.params.skip = parseInt( req.params.skip || 0 );
+  next();
+}
+
+// ?count=1
+function countParse( req, res, next ){
+  req.params.count = parseInt( req.params.count || 0 );
   next();
 }
 
