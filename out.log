@@ -1,0 +1,4 @@
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+api.quehacenlosdiputados.net listening at http://0.0.0.0:3002
+findParams {"titulo":{"$regex":"b[aáàä]rc[eéè]n[aáàä]s","$options":"i"}}
+{ titulo: { '$regex': 'b[aáàä]rc[eéè]n[aáàä]s', '$options': 'i' } }

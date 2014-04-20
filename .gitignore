@@ -18,3 +18,5 @@ out.log
 error.log
 
 *.log
+
+*.log
