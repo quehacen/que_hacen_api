@@ -44,7 +44,9 @@ apiServer.get('/diputados', function(req, res) {
     if (!Object.keys(req.params.q).length) {
         req.params.q['activo'] = 1;
     }
-    console.log(req.params.q)
+
+    console.log(req.params.q);
+
     if (!req.params.order) {
         req.params.order = {};
         req.params.order['normalized.apellidos'] = 1;
@@ -390,13 +392,27 @@ apiServer.get('/votaciones', function(req, res) {
     collection
         .find(req.params.q, req.params.only || req.params.not || noShow)
         .limit(req.params.limit)
+        .skip(req.params.skip)
         .sort(req.params.order)
         .toArray(function(err, docs) {
-            if (err) {
+	    if (err) {
                 res.send(err);
                 return;
             }
-            res.send(docs);
+            if (req.params.count == 1) {
+                collection.find(req.params.q).count(function(err, resp) {
+                    if (err) {
+                        res.send(err);
+                        return;
+                    }
+                    var resul = {};
+                    resul.totalObjects = resp;
+                    resul.result = docs;
+                    res.send(resul);
+                });
+            } else {
+                res.send(docs);
+            }
         });
 });
 
@@ -464,15 +480,7 @@ apiServer.get('/iniciativas', function(req, res) {
 
     if (!req.params.order) {
         req.params.order = {};
-        req.params.order['presentadoJS'] = -1;
-    }
-
-
-    if (req.params.count == 1) {
-        var count;
-        collection.find(req.params.q).count(function(err, resp) {
-            count = resp;
-        });
+        req.params.order['presentadoJS2'] = -1;
     }
 
     collection
@@ -487,19 +495,60 @@ apiServer.get('/iniciativas', function(req, res) {
             }
             if (req.params.count == 1) {
                 collection.find(req.params.q).count(function(err, resp) {
+                    if (err) {
+                        res.send(err);
+                        return;
+                    }
                     var resul = {};
                     resul.totalObjects = resp;
                     resul.result = docs;
                     res.send(resul);
                 });
-
-                return;
             } else {
                 res.send(docs);
             }
-
         });
 });
+
+apiServer.get('/intervenciones', function(req, res) {
+
+    var collection = db.collection('intervenciones');
+    var noShow = {
+        '_id': 0
+    };
+
+    if (!req.params.order) {
+        req.params.order = {};
+        req.params.order['fechahora'] = -1;
+    }
+
+    collection
+        .find(req.params.q, req.params.only || req.params.not || noShow)
+        .limit(req.params.limit)
+        .skip(req.params.skip)
+        .sort(req.params.order)
+        .toArray(function(err, docs) {
+            if (err) {
+                res.send(err);
+                return;
+            }
+            if (req.params.count == 1) {
+                collection.find(req.params.q).count(function(err, resp) {
+                    if (err) {
+                        res.send(err);
+                        return;
+                    }
+                    var resul = {};
+                    resul.totalObjects = resp;
+                    resul.result = docs;
+                    res.send(resul);
+                });
+            } else {
+                res.send(docs);
+            }
+        });
+});
+
 
 apiServer.get('/circunscripciones', function(req, res) {
 
@@ -627,11 +676,12 @@ apiServer.get('/eventos', function(req, res) {
 });
 
 apiServer.get('/', function(req, res) {
+    //console.log(db);
     res.send(apiServer.name);
 });
 
 apiServer.get('/test', function(req, res) {
-
+    //console.log(db);
     db.collection('eventos')
         .find({
             fechahoraJS: {
@@ -776,7 +826,7 @@ function findParse(req, res, next) {
         return;
     }
     req.params.q = parseQuery({}, req.params.q);
-    console.log(req.params.q);
+    console.log("findParse", req.params.q);
     next();
 }
 
